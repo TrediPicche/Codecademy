@@ -1,0 +1,37 @@
+h1, h2, h3, p, span {
+    font-family: "Helvetica", sans-serif;
+}
+
+span {
+    color:blue;
+    font-weight: bold;
+}
+
+#Dasmoto {
+  background-image: url("../resources/pattern.webp");
+  font-size: 100px;
+  font-weight: bold;
+  color: khaki;
+  text-align: center;
+}
+
+#brushes {
+    background-color: mediumspringgreen;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#frames {
+    background-color: lightcoral;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+#paint {
+    background-color: skyblue;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
