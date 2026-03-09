@@ -1,0 +1,126 @@
+:root {
+  --bg: #0b0f17;
+  --panel: #111827;
+  --text: #e5e7eb;
+  --muted: #a1a1aa;
+  --accent: #60a5fa;
+  --border: rgba(255, 255, 255, 0.08);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, Cantarell, "Noto Sans", sans-serif;
+  line-height: 1.55;
+  background: radial-gradient(1200px 500px at 10% 0%, rgba(96, 165, 250, 0.15), transparent 60%),
+    radial-gradient(900px 500px at 90% 0%, rgba(52, 211, 153, 0.1), transparent 60%), var(--bg);
+  color: var(--text);
+}
+
+a {
+  color: inherit;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.container {
+  width: min(980px, 100% - 2rem);
+  margin: 2rem auto 3rem;
+}
+
+.lead {
+  margin-top: 0.25rem;
+  color: var(--muted);
+  font-size: 1.05rem;
+}
+
+.muted {
+  color: var(--muted);
+}
+
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  background: rgba(11, 15, 23, 0.85);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+  padding: 0.75rem 1rem;
+}
+
+.site-title {
+  display: inline-block;
+  text-decoration: none;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  margin-right: 1rem;
+}
+
+.site-nav {
+  margin-top: 0.5rem;
+}
+
+.nav {
+  list-style: none;
+  padding: 0;
+  margin: 0.25rem 0 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+}
+
+.nav a {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.95rem;
+}
+
+.nav a.active {
+  border-color: rgba(96, 165, 250, 0.45);
+  background: rgba(96, 165, 250, 0.12);
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0 0 0.75rem;
+}
+
+h2 {
+  font-size: 1.2rem;
+  margin: 0 0 0.5rem;
+}
+
+.card {
+  background: rgba(17, 24, 39, 0.75);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 1rem;
+  margin: 1rem 0;
+}
+
+code {
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid var(--border);
+  padding: 0.1rem 0.35rem;
+  border-radius: 6px;
+}
+
+.site-footer {
+  border-top: 1px solid var(--border);
+  padding: 1.25rem 1rem;
+  color: var(--muted);
+  text-align: center;
+}
