@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Syllabus portfolio frontend con pagine dedicate a HTML, CSS, JavaScript, React, Redux, Express.js, Git e GitHub.">
+    <title>Syllabus</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <script src="../JS/config.js" defer></script>
+    <script src="../JS/script.js" defer></script>
+    <script src="../JS/components.js" defer></script>
+    <script src="../JS/main.js" defer></script>
+  </head>
+  <body data-page="home">
+    <div id="site-header"></div>
+
+    <main id="main-content" class="main-content">
+      <section class="hero">
+        <div class="container">
+          <div class="hero__panel">
+            <p class="hero__eyebrow" data-page-tag>Syllabus</p>
+            <h2 class="hero__title" data-page-title>Frontend Syllabus</h2>
+            <p class="hero__subtitle" data-page-subtitle>
+              Una base ordinata per raccogliere argomenti, appunti e collegamenti del progetto portfolio.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="page-section" aria-labelledby="homepage-topics-title">
+        <div class="container">
+          <div class="search-panel">
+            <label class="search-panel__label" id="search-label" for="topic-search">Cerca un argomento</label>
+            <input
+              class="search-panel__input"
+              id="topic-search"
+              name="topic-search"
+              type="search"
+              autocomplete="off"
+              placeholder="Filtra per parola chiave..."
+            >
+            <div class="search-panel__meta">
+              <p class="search-panel__hint" id="search-hint">Puoi cercare per tecnologia, concetto o parola chiave.</p>
+              <p class="search-panel__results" id="results-counter" aria-live="polite"></p>
+            </div>
+          </div>
+
+          <h3 class="visually-hidden" id="homepage-topics-title">Argomenti in evidenza</h3>
+          <div class="topics-grid" id="topic-grid"></div>
+          <p class="empty-state" id="search-empty-state" hidden></p>
+        </div>
+      </section>
+    </main>
+
+    <div id="site-footer"></div>
+  </body>
+</html>

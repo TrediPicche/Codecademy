@@ -1,0 +1,33 @@
+Visualizza il risultato finale. Con cosa è costruito? Cosa può fare? Assicurati che soddisfi tutti gli obiettivi del progetto.
+
+Stabilisci una tempistica e resisti alla tentazione di realizzare cose che non sono necessarie. Stabilire limiti e scadenze rigorose ti aiuterà a rimanere sulla buona strada e a evitare che il progetto si espanda .
+
+Le seguenti attività ti aiuteranno a identificare i punti di rottura naturali.
+
+Utilizzando carta e matita, oppure un software di wireframing a tua scelta, disegna una bozza di come vorresti che fosse il tuo portfolio.
+
+Sul tuo computer, crea una directory per contenere i tuoi file e crea ogni file. Distribuisci il codice localmente per vedere come appare nel browser.
+
+Ora che hai i tuoi contenuti, pensa a come vorresti che apparissero. Vuoi organizzare i tuoi progetti in una griglia? In modo asimmetrico? Quali colori vuoi usare per personalizzare la pagina?
+
+La home page sarà la pagina principale visitata dagli utenti. Dovrebbe mettere in evidenza il tuo nome, insieme a una selezione dei progetti di cui sei più orgoglioso. Ogni progetto dovrebbe contenere un'immagine, una sintesi del progetto e la tecnologia utilizzata per realizzarlo.
+
+La pagina dei contatti include il tuo indirizzo email e altre informazioni rilevanti, come il tuo profilo LinkedIn o una foto personale.
+
+Utilizza JavaScript per aggiungere interattività al tuo sito web.
+
+Utilizza un design reattivo per garantire che la tua pagina sia visibile su più dispositivi (desktop, tablet, dispositivi mobili).
+
+Imposta il tracciamento Git nella tua directory e assicurati di aggiungere e confermare le modifiche man mano che le apporti.
+
+Prendi ciò che hai creato e usa le pagine GitHub per condividerlo con il mondo.
+
+Congratulazioni per aver creato il tuo portfolio! Puoi ampliarlo ulteriormente, oltre queste due pagine. Ad esempio, puoi includere una pagina per ogni progetto che hai realizzato.
+
+Obiettivi del progetto:
+Crea un sito web utilizzando HTML, CSS
+Aggiungi almeno una funzionalità interattiva utilizzando JavaScript
+Utilizzare il controllo di versione Git
+Utilizzare la riga di comando e la navigazione tra i file
+Sviluppa localmente sul tuo computer
+Distribuisci il tuo sito sul web utilizzando GitHub Pages
